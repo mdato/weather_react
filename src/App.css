@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.grados {
+  font-size: 20px;
+}
+
+.uno {
+  max-width: 350px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding-bottom: 5px;
+}
+
+.dos {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 0 5px;
+}
+
+.cuatro {
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.hora {
+  margin-top: -10px;
+  font-size: 25px !important;
+  font-weight: bolder;
+}
+
+.country {
+  font-size: 13px !important;
+}
+
+h1 {
+  font-size: 60px !important;
+}
+
+.ciudad {
+  padding: 0 10px;
+  margin-left: -20px;
+  /* line-height: 1%; */
+  margin-bottom: 10px;
+}
+
+.temper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.grados {
+  margin-top: -20px;
+}
+
+.centigrado {
+  margin-top: 10px;
+}
+
+.card-title {
+
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.saveCity {
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+  padding: 1px 5px 3px 5px;
+  background-color: #f8f8f8;
+  color: #212121;
+}
+
+@media only screen and (min-width: 576px) {
+  .card-img {
+    margin: auto;
+    width: 85vw !important;
+    height: 600px !important;
+    object-fit: cover;
+  }
+
+  .card-title {
+    font-size: 3vw;
+
+  }
+
+  .cuadro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-group {
+    width: 400px !important;
+  }
+
+  .bg-dark {
+    width: 400px !important;
+  }
+
+  .uno {
+    max-width: 378px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .dos {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 0 20px;
+  }
+
+  .cuatro {
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
